@@ -32,7 +32,7 @@ your-training-folder/
 ```
 
 #### 4. Start Training  
-Run the training script:
+Run the training script from inside your-training-folder:
 
 ```bash
 python trainGPT-token.py
