@@ -38,6 +38,8 @@ Run the training script from inside your-training-folder:
 python trainGPT-token.py
 ```
 
+This will replicate MiniModel with **12 layers**, the original model used **24 layers**. Please change `'layers': 24` in `trainGPT-token.py` if you wish to replicate the original model.
+
 > By default, the script logs training loss and other metrics to a directory called `runs/` using PyTorch’s `SummaryWriter`.
 
 #### 5. Monitor Training with TensorBoard  
