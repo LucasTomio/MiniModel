@@ -33,7 +33,7 @@ torch.backends.cuda.matmul.allow_tf32 = True
 torch._dynamo.config.capture_scalar_outputs = True
 
 config = {
-    'layers': 24,
+    'layers': 12, # xTimeCrystal/MiniModel-200M-Base used 24 layers, using 12 layers here to save VRAM
     'num_heads': 12,
     'vocab_size': 32768,
     'input_dims': 768,
@@ -101,8 +101,8 @@ for dataset_n in range(48):
     
     # Load Data
     
-    base_path = "datasets/TinyCorpus/128/"
-    data_name = f"tinycorpus-{dataset_n%480:03d}-of-128.parquet"
+    base_path = "./128/"
+    data_name = f"tinycorpus-{dataset_n%128:03d}-of-128.parquet"
 
     loader, n_rows = load_parquet(base_path, data_name, batch_size=batch_size, columns=['0'])
 
