@@ -1,0 +1,187 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.header-1 {
+    color: #000000;
+    height: 60px;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #000000;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.logo img{
+    float: left;
+    padding-top: 3px;
+    width: 10%;
+}
+
+.redes-sociais ul li {
+    margin-left: 5px;
+    display: inline-flex;
+    list-style: none;
+    vertical-align: middle;    
+}
+
+.redes-sociais {
+    width: 20%;
+    float: right;
+}
+
+.busca {
+    width: 52%;
+    float: right;
+    padding-top: 18px;
+}
+
+.busca input {
+    background-image: url('../img/%C3%8Dcone%20Busca.png');
+    background-repeat: no-repeat;
+    background-position: right 4px;
+    background-size: 19px;
+    height: 27px;
+    width: 400px;
+    padding-left: 7px;
+    padding-right: 21px;
+    font-size: 14px;
+    border: 1px solid #424242;
+}
+
+.header-2 {
+    background-color: ;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.menu-urls {
+    border-bottom: 3px solid #efefef;
+    border-top: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #000000;
+    margin-left: 100px;
+    height: 34px;
+    margin-bottom: -21px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover { 
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+/* Botão Direito */
+
+button.slick-next {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 25;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/Proximo.png');
+    position: absolute;
+    top: 35%;
+    right: 20%;
+    z-index: 1000;
+}
+
+/* ----------------------- */
+
+/* Botão Esquerdo */
+
+button.slick-prev {
+    display: inline-block;
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/Anterior.png');
+    position: absolute;
+    top: 35%;
+    left: 20%;
+    z-index: 1000;
+}
+
+/* ----------------------- */
+
+.slick-slide img {
+    height: 100%;
+    width: 100%;
+}
+
+.slider-principal {
+    width: 100%!important;
+}
+
+/* Dots de imagem */
+
+ul.slick.dots li.slick-active {
+    background-color: #00bac6;
+}
+
+.slick-list {
+    width: 100%!important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 12%;
+    position: absolute;
+    left: 40%;
+    top: 95%;
+}
+
+.slick-dots li {
+    display: inline-block;
+}
+
+li.slick-active button {
+    background: #00bac6;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/* ----------------------- */
